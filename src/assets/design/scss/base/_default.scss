@@ -1,0 +1,146 @@
+html,
+body {
+    height: 100%;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+body {
+    font-size: 100%;
+}
+
+// CLASSES PARA TESTE
+.border-teste{
+    border: solid 1px red;
+}
+
+.bg-teste {
+    background-color: red;
+}
+
+//CLASSES PARA ESPAÇAMENTO 
+
+.container {
+    padding: 0 3rem;
+    font-size: $txt-default;
+}
+
+//CLASSES DE MARGIN E PADDING 
+.p-1 { padding: $tiny;}
+.p-2 { padding: $small;}
+.p-3 { padding: $normal;}
+.p-4 { padding: $big;}
+.p-5 { padding: $large;}
+.p-6 { padding: $huge;}
+
+// PADDING EIXO X
+.px-1 { padding: 0 $tiny;}
+.px-2 { padding: 0 $small;}
+.px-3 { padding: 0 $normal;}
+.px-4 { padding: 0 $big;}
+.px-5 { padding: 0 $large;}
+.px-6 { padding: 0 $huge;}
+
+// PADDING EIXO Y
+.py-1 { padding: $tiny 0;}
+.py-2 { padding: $small 0;}
+.py-3 { padding: $normal 0;}
+.py-4 { padding: $big 0;}
+.py-5 { padding: $large 0;}
+.py-6 { padding: $huge 0 ;}
+
+// PADDING TOP
+.pt-1 { padding-top: $tiny;}
+.pt-2 { padding-top: $small;}
+.pt-3 { padding-top: $normal;}
+.pt-4 { padding-top: $big;}
+.pt-5 { padding-top: $large; }
+.pt-6 { padding-top: $huge; }
+
+// PADDING TOP
+.pt-1 { padding-top: $tiny; }
+.pt-2 { padding-top: $small; }
+.pt-3 { padding-top: $normal; }
+.pt-4 { padding-top: $big; }
+.pt-5 { padding-top: $large; }
+.pt-6 { padding-top: $huge; }
+
+// PADDING LEFT
+.pl-1 { padding-left: $tiny; }
+.pl-2 { padding-left: $small; }
+.pl-3 { padding-left: $normal; }
+.pl-4 { padding-left: $big; }
+.pl-5 { padding-left: $large; }
+.pl-6 { padding-left: $huge; }
+
+// PADDING RIGHT
+.pr-1 { padding-right: $tiny; }
+.pr-2 { padding-right: $small; }
+.pr-3 { padding-right: $normal; }
+.pr-4 { padding-right: $big; }
+.pr-5 { padding-right: $large; }
+.pr-6 { padding-right: $huge; }
+
+// PADDING RIGHT
+.pb-1 { padding-bottom: $tiny; }
+.pb-2 { padding-bottom: $small; }
+.pb-3 { padding-bottom: $normal; }
+.pb-4 { padding-bottom: $big; }
+.pb-5 { padding-bottom: $large; }
+.pb-6 { padding-bottom: $huge; }
+
+// MARGIN EIXO X
+.mx-1 { margin: 0 $tiny; }
+.mx-2 { margin: 0 $small; }
+.mx-3 { margin: 0 $normal; }
+.mx-4 { margin: 0 $big; }
+.mx-5 { margin: 0 $large; }
+.mx-6 { margin: 0 $huge; }
+
+// MARGIN EIXO Y
+.my-1 { margin: $tiny 0; }
+.my-2 { margin: $small 0; }
+.my-3 { margin: $normal 0; }
+.my-4 { margin: $big 0; }
+.my-5 { margin: $large 0; }
+.my-6 { margin: $huge 0; }
+
+// MARGIN
+.m-1 { margin: $tiny; }
+.m-2 { margin: $small; }
+.m-3 { margin: $normal; }
+.m-4 { margin: $big; }
+.m-5 { margin: $large; }
+.m-6 { margin: $huge; }
+
+// MARGIN TOP
+.mt-1 { margin-top: $tiny; }
+.mt-2 { margin-top: $small; }
+.mt-3 { margin-top: $normal; }
+.mt-4 { margin-top: $big; }
+.mt-5 { margin-top: $large; }
+.mt-6 { margin-top: $huge; }
+
+// MARGIN LEFT
+.ml-1 { margin-left: $tiny; }
+.ml-2 { margin-left: $small; }
+.ml-3 { margin-left: $normal; }
+.ml-4 { margin-left: $big; }
+.ml-5 { margin-left: $large; }
+.ml-6 { margin-left: $huge; }
+
+// MARGIN RIGHT
+.mr-1 { margin-right: $tiny; }
+.mr-2 { margin-right: $small; }
+.mr-3 { margin-right: $normal; }
+.mr-4 { margin-right: $big; }
+.mr-5 { margin-right: $large; }
+.mr-6 { margin-right: $huge; }
+
+// MARGIN BOTTOM
+.mb-1 { margin-bottom: $tiny; }
+.mb-2 { margin-bottom: $small; }
+.mb-3 { margin-bottom: $normal; }
+.mb-4 { margin-bottom: $big; }
+.mb-5 { margin-bottom: $large; }
+.mb-6 { margin-bottom: $huge; }

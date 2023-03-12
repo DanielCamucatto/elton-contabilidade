@@ -1,0 +1,12 @@
+//TAMANHOS GERAIS
+$tiny: .6rem;
+$small: .8rem;
+$normal: 1rem;
+$big: 2rem;
+$large: 3rem;
+$huge: 4rem;
+
+// TAMANHO DAS FONTES
+$txt-large: clamp($big, 50% $large);
+$txt-default: clamp($small, 70% $normal);
+$txt-small: clamp($tiny, 90% $small);

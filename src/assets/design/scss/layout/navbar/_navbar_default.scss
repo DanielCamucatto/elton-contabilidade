@@ -1,0 +1,12 @@
+.navbar {
+    background-color: yellow;
+    height: 60px;
+
+    &__img {
+        border: solid 1px red;
+    }
+
+    &__list {
+        border: solid 1px black;
+    }
+}
