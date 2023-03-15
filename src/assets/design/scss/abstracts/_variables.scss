@@ -10,3 +10,7 @@ $huge: 4rem;
 $txt-large: clamp($big, 50% $large);
 $txt-default: clamp($small, 70% $normal);
 $txt-small: clamp($tiny, 90% $small);
+
+// COLORS
+$color-link: $color-grey;
+$color-bg: $color-light-grey;

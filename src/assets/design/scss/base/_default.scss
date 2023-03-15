@@ -6,8 +6,11 @@ body {
 }
 
 body {
+    background-color: $color-bg;
     font-size: 100%;
 }
+
+a {text-decoration: none;}
 
 // CLASSES PARA TESTE
 .border-teste{
@@ -144,3 +147,13 @@ body {
 .mb-4 { margin-bottom: $big; }
 .mb-5 { margin-bottom: $large; }
 .mb-6 { margin-bottom: $huge; }
+
+// GRID
+.d-grid { display: grid; }
+.j-end{ justify-content: end;}
+.j-center{ justify-content:center;}
+.j-left{ justify-content:left;}
+.j-right{ justify-content:right;}
+.j-start{ justify-content: start;}
+.j-between{ justify-content: space-between;}
+.j-around{ justify-content:space-around;}

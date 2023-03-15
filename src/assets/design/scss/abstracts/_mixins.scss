@@ -1,0 +1,6 @@
+@mixin color ($color){
+    color: $color;
+    &:hover{
+        color: lighten($color-link, 20%);
+    }
+}
